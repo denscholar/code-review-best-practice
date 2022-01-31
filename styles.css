@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    background-color: lightgrey;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  
+  .container {
+    background: white;
+    max-width: 2000px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.664);
+  }
+  
+  h1 {
+    color: #2555ed;
+    text-align: center;
+    margin: 1rem 5rem;
+  }
+  
+  button {
+    border: none;
+    background: white;
+  }
+  
+  form input,
+  form button {
+    padding: 1rem;
+    font-size: 20px;
+    border: none;
+    border-top: 1px solid rgb(197, 196, 196);
+    border-bottom: 1px solid rgb(187, 187, 187);
+    background: rgb(247, 245, 245);
+    outline: none;
+  }
+  
+  form input {
+    width: 85%;
+  }
+  
+  .clear-button {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    text-decoration: underline;
+    background: #f6f6f6;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .task-text {
+    font-size: 20px;
+    flex-grow: 1;
+    padding: 7px;
+    outline: none;
+    margin: 5px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .fa-ellipsis-v,
+  .fa-trash,
+  .fa-sync-alt {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .check {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .refresh {
+    position: relative;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .count {
+    position: absolute;
+    bottom: 22px;
+    right: 5px;
+    height: 18px;
+    width: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 2px;
+  }
+  
+  .refresh p {
+    font-size: 20px;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+    font-size: 14px;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
+  
+  .fa-ellipsis-v {
+    display: none;
+  }
+  
